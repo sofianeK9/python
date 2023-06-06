@@ -8,6 +8,6 @@ number2 = 2.7182
 convertir = int (number2)
 print (convertir)
 
-convertir = number2_int
+number2_int = int
 
 print (number2_int)
