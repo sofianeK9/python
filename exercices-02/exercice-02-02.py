@@ -6,4 +6,4 @@
 # réponse 2.2
 number1 = 2
 convertir =float(number1)
-print (number1)
+print (convertir)
