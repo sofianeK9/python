@@ -4,10 +4,6 @@
 # Affichez le résultat.
 
 # réponse 2.3
-number2 = 2.7182
-convertir = int (number2)
-print (convertir)
-
-number2_int = int
-
-print (number2_int)
+number3 = 2.7182
+number2_int = int(number3)
+print(number2_int)
