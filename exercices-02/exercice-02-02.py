@@ -3,7 +3,8 @@
 # Convertissez la valeur en float et stockez le résultat dans une variable nommée `number1_float`.
 # Affichez le résultat.
 
-# réponse 2.2
+# réponse 2.
 number1 = 2
-convertir =float(number1)
-print (convertir)
+number1_float = float(number1)
+print(number1)
+
