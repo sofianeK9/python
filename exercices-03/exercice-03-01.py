@@ -9,9 +9,9 @@ birthyear = 1988
 
 # réponse 3.1
 
-year = 1988
+year = 2023
 
-age = birthyear - year
+age = year - birthyear
 
 print (age)
 
