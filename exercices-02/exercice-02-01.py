@@ -13,3 +13,4 @@ golden_ratio = 1.61
 fullname = "Salut Kaya Sofiane"
 love_python = True
 license_agreement = None
+
