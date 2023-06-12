@@ -12,8 +12,10 @@ chocolates = 17
 friends = 3
 
 # réponse 3.3
-candies_per_person = 15 // 3
+candies_per_person = candies / friends
+
 print (candies_per_person)
 
-chocolates_per_person = 17 // 3
+chocolates_per_person = chocolates / friends
+
 print (chocolates_per_person)

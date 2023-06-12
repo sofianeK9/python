@@ -16,13 +16,24 @@ price_beta = 1.70
 # réponse 3.9
 weight_alpha = 120 / 1000
 print(weight_alpha)
-weight_beta = 100 / 1000
+
+weight_beta = 170 / 1000
 print(weight_beta)
 
-price_alpha = price_alpha / weight_alpha 
+
+price_alpha = 1000 / 120 * 2
 print(price_alpha)
 
-price_beta = price_beta / weight_beta
-print(price_beta)
+price_beta = 1000 / 170 *1.7
+print (price_beta)
 
-print (price_alpha > price_beta)
+print(price_alpha < price_beta)
+
+text1 = "lorem ipsum"
+result = "e" in text1
+print(result)
+
+e = random.randint(0, 100)
+f = random.randint(0, 100)
+print(f'{e=}')
+print(f'{f=}')

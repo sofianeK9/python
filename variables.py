@@ -85,7 +85,11 @@ print (text7)
 
 # permutez les deux variables a et b en utilisant les operateurs d'affectations et le nom des variables
 a = 123
-d = 42
+b = 42
+
+# permutation des valeurs à l'aide de la methode phytonique
+
+b, a = a, b
 
 # permutation des valeurs à l'aide d'une variable temporaire
 c = b
@@ -104,3 +108,19 @@ a = a - b
 
 print (a)
 print (b)
+
+# addition de float
+# affiche 0.300000000000004 au lieu de 0.3
+print (Decimal(0.1) + Decimal(0.1) + Decimal(0.1))
+
+import decimal
+from decimal import Decimal
+
+# affiche correctement 0.3
+
+print (Decimal("0.1") + Decimal("0.1") + Decimal ("0.1"))
+
+#affiche correctement 0.3
+
+print(Decimal("0.3")) + Decimal (("0.3")) + Decimal (("0.3"))
+

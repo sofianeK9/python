@@ -21,8 +21,10 @@ day4 = 63.70
 day5 = 32.00
 
 days = 5
-total = (day1 + day2 + day3 + day4 + day5)
-print(total)
 
-average = total // days
-print(average)
+total = ( day1 + day2 + day3 + day4 + day5)
+print (total)
+
+average = total / days
+
+print (average)

@@ -4,6 +4,8 @@
 # Affichez le résultat.
 
 # réponse 2.3
-number3 = 2.7182
-number2_int = int(number3)
-print(number2_int)
+number2 = 2.7182
+
+number2_int = int(number2)
+
+print (number2_int)
