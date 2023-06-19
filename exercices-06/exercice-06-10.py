@@ -11,6 +11,8 @@ my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 somme = 0
 
 for i in my_list:
-    somme +=
+    somme += i
+    print(somme)
 
-print("la somme est de :", somme,)
+moyenne = somme / len(my_list)
+print(moyenne)
