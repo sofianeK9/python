@@ -1,5 +1,5 @@
-# exo 9.5
-# Supprimez du dictionnaire la clé `foo`
+# exo 9.6
+# Remplacez la valeur du dictionnaire associée à la clé `foo` par `123`
 # Puis affichez le résultat avec un simple `print()`
 
 my_dict = {
@@ -9,9 +9,7 @@ my_dict = {
     'lorem': True
 }
 
-# réponse 9.5
-del my_dict['foo']
-print(my_dict)
+# réponse 9.6
 
-my_dict[42] = 'foo'
+my_dict['foo'] = 123
 print(my_dict)
